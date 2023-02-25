@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(187, 187, 187);
+  height: 100vh;
+  display: flex;
+  vertical-align: middle;
+}
+
+.tvcontainer {
+  position: relative;
+  border: 3px solid rgb(28, 28, 28);
+  border-radius: 10px;
+  background: #aaa;
+  width: 400px;
+  height: 280px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: inset 0 5px 5px #ddd, inset 5px 0 5px #555, inset -5px 0 5px #555,
+    inset 0 -5px 5px #555;
+}
+
+.antenna-r,
+.antenna-l {
+  width: 5px;
+  height: 70px;
+  position: absolute;
+  box-shadow: inset 0 5px 5px #ddd, inset 5px 0 5px #444444,
+    inset -5px 0 5px #555, inset 0 -5px 5px #555;
+  top: -50px;
+  transform: translateX(-50%);
+  z-index: -1;
+}
+
+.antenna-r {
+  transform: rotate(25deg);
+  left: 350px;
+}
+.antenna-l {
+  transform: rotate(-28deg);
+  left: 320px;
+}
+
+.points {
+  border-radius: 50%;
+  box-shadow: inset 0 5px 5px #bebdbd, inset 5px 0 5px #444444,
+    inset -5px 0 5px #555, inset 0 -5px 5px #555;
+  width: 10px;
+  height: 10px;
+  position: relative;
+  top: -4px;
+  left: -2px;
+}
+
+.left-section {
+  border: 1px solid #433;
+  height: 80%;
+  width: 70%;
+  margin: auto;
+  background: #ccc linear-gradient(90deg, transparent, #888);
+  border-radius: 10px;
+  box-shadow: inset 0 3px 4px #000;
+  
+}
+
+.inner-left-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background: #666 linear-gradient(transparent, #333);
+  color: #d2d2d2 ;
+  height: 99%;
+  width: 99%;
+}
+
+/* sezione tv destra */
+
+.right-section {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  height: 85%;
+  margin: auto;
+  background: #663300;
+  border-radius: 10px;
+  box-shadow: inset 0 3px 4px #000;
+}
+
+.panel,
+.line-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.panel {
+  height: 70%;
+}
+
+.line-container {
+  height: 20%;
+}
+.line {
+  width: 80%;
+  background: black;
+  height: 5px;
+  margin-top: 5px;
+  border-radius: 5px;
+  box-shadow: inset 0px -1px 0px 1px #232323;
+}
+
+#displayCounter {
+  font-size: 100px;
+  font-family: impact;
+}
+
+.radial {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  border: 2px solid #333;
+  background: linear-gradient(to bottom, #8f8e8d 5%, #5d5d5d 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0px -1px 0px 1px #919190;
+}
+
+.minor-radial {
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  border: 2px solid #141414;
+  background: linear-gradient(to bottom, #b8b4b1 5%, #5d5d5d 100%);
+  text-align: center;
+  vertical-align: middle;
+  font-size: 15px;
+  color: rgb(37, 37, 37);
+
+  box-shadow: inset 0px -1px 0px 1px #919190;
+}
+
+.square {
+  box-shadow: inset 0px 1px 0px 0px #a6827e;
+  background: linear-gradient(to bottom, #b8b4b1 5%, #5d5d5d 100%);
+  border-radius: 3px;
+  border: 1px solid #222222;
+  width: 70%;
+  box-shadow: inset 0px -1px 0px 1px #919190;
+  color: rgb(37, 37, 37);
+}
+
+.r:active {
+  transform: rotate(25deg);
+}
+
+.l:active {
+  transform: rotate(-25deg);
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.square:active {
+  position: relative;
+  top: 1px;
+}
