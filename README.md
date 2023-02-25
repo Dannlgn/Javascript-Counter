@@ -1,4 +1,5 @@
 <a name="readme-top"></a>
+
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -10,11 +11,10 @@
 
   <p align="center">
    A simple counter, you press a button and the numbers go up and down
+    <br /><br />
+    <a href="https://jsvintagetvcounter.netlify.app"  target="_blank"><strong>Explore the demo »</strong></a>
     <br />
-    <a href="https://github.com/Dannlgn/Javascript-Counter"><strong>Explore the docs »</strong></a>
     <br />
-    <br />
-    <a href="https://jsvintagetvcounter.netlify.app"  target="_blank">View Demo</a>
     ·
     <a href="https://github.com/Dannlgn/Javascript-Counter/issues">Report Bug</a>
     ·
@@ -55,10 +55,11 @@ As a simple counter, just press the plus button to increase the number and the m
 <!-- CONTACT -->
 
 ## Contact
+
 Daniele Laganà </br>
 
-- [@linkedin_profile](https://www.linkedin.com/in/daniele-laganà/) 
--  e-mail: daniele.lgn96@yahoo.it
+- [@linkedin_profile](https://www.linkedin.com/in/daniele-laganà/)
+- e-mail: daniele.lgn96@yahoo.it
 
 Project Link: [Simple Javascript Counter](https://github.com/Dannlgn/Javascript-Counter)
 
